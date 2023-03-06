@@ -14,5 +14,7 @@ contract CrowdFunding {
         string[] donations;
     }
 
-    mapping{uint256 => CrowdFunding} public campaigns;
+    mapping(uint256 => Campaign) public campaigns;
+
+
 }
